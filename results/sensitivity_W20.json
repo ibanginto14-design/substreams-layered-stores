@@ -1,0 +1,618 @@
+{
+  "base": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.1227562024503013,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.1228049544451215,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.166259569335369,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 2.0899867264427128,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.07480878863239232
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 7.644643053884984,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 2.4589304669497825,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 2.9011194426917117,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 2.1390059492188214,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 0.7566807972435865
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 26.26060578094841,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 3.8353202718468946,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 4.942422656077907,
+        "written_TB": 0.367304832880422,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 2.2825890458108415,
+        "written_TB": 0.3673048328804219,
+        "read_TB": 2.659931840402662
+      }
+    }
+  ],
+  "fast storage, 1 GB/s": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.09232913445267,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.092347444429156,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.100988902231592,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 2.085773892113714,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.07476442503546124
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.2629940521459875,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 2.1603658332445392,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 2.248000468476275,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 2.0952998233757434,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 0.7488499938244494
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 5.46315101595497,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 2.346747748951839,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 2.655300595997311,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 2.1223088605560485,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 2.6385025079657187
+      }
+    }
+  ],
+  "slow storage, 100 MB/s": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.2629940521459875,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.1603658332445392,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.248000468476275,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 2.0952998233757434,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.07488499938244497
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 15.058551311575128,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 2.8415538867974974,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 3.71456742529046,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 2.195791107102466,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 0.7594860175401511
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 52.45434368565995,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 6.8434129547276745,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 7.798231857997147,
+        "written_TB": 0.36730483288042187,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 2.476465288853741,
+        "written_TB": 0.3673048328804217,
+        "read_TB": 2.670423501266799
+      }
+    }
+  ],
+  "hot keys, 1% updated per segment": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.122928520177009,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.1231453277400187,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.207441182788514,
+        "written_TB": 0.03701050374513892,
+        "read_TB": 1.7490701815473317
+      },
+      "layered+cache": {
+        "makespan_h": 2.1011291220440294,
+        "written_TB": 0.03701050374513892,
+        "read_TB": 0.23094079903840922
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 7.761554163443895,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 2.4628251414044224,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 3.314228486552453,
+        "written_TB": 0.37010503745139056,
+        "read_TB": 17.49070181547322
+      },
+      "layered+cache": {
+        "makespan_h": 2.261798177247634,
+        "written_TB": 0.37010503745139056,
+        "read_TB": 2.353096421971035
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 26.67743267415304,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 3.876162850877623,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 6.3789018451770945,
+        "written_TB": 1.295367631079866,
+        "read_TB": 61.2174563541564
+      },
+      "layered+cache": {
+        "makespan_h": 2.7005050003697626,
+        "written_TB": 1.2953676310798654,
+        "read_TB": 8.330696856459065
+      }
+    }
+  ],
+  "20,000 segments": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 20000,
+      "today": {
+        "makespan_h": 4.243338322662388,
+        "written_TB": 1.0737955110912003,
+        "read_TB": 1.0736881369088003
+      },
+      "pipelined": {
+        "makespan_h": 4.243422233244578,
+        "written_TB": 1.0737955110912003,
+        "read_TB": 1.0736881369088003
+      },
+      "layered": {
+        "makespan_h": 4.365190228580979,
+        "written_TB": 0.020271343282405156,
+        "read_TB": 2.8244723725660155
+      },
+      "layered+cache": {
+        "makespan_h": 4.1785602385654315,
+        "written_TB": 0.020271343282405156,
+        "read_TB": 0.14610565968137287
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 20000,
+      "today": {
+        "makespan_h": 15.283728312042527,
+        "written_TB": 10.737955110912006,
+        "read_TB": 10.736881369088007
+      },
+      "pipelined": {
+        "makespan_h": 4.915485348550084,
+        "written_TB": 10.737955110912006,
+        "read_TB": 10.736881369088007
+      },
+      "layered": {
+        "makespan_h": 6.133918835105079,
+        "written_TB": 0.20271343282405135,
+        "read_TB": 28.24472372566006
+      },
+      "layered+cache": {
+        "makespan_h": 4.27365477421571,
+        "written_TB": 0.20271343282405135,
+        "read_TB": 1.4652705624099096
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 20000,
+      "today": {
+        "makespan_h": 52.506492942180785,
+        "written_TB": 37.582842888192005,
+        "read_TB": 37.57908479180801
+      },
+      "pipelined": {
+        "makespan_h": 7.661868042660796,
+        "written_TB": 37.582842888192005,
+        "read_TB": 37.57908479180801
+      },
+      "layered": {
+        "makespan_h": 11.060097474598814,
+        "written_TB": 0.7094970148841789,
+        "read_TB": 98.8565330398102
+      },
+      "layered+cache": {
+        "makespan_h": 4.551763291835054,
+        "written_TB": 0.7094970148841787,
+        "read_TB": 5.146560622976446
+      }
+    }
+  ],
+  "1 tree merger": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.1227562024503013,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.1228049544451215,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.165865985127627,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 2.0899908459142456,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.075005976037506
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 7.644643053884984,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 2.4589304669497825,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 2.9000986589311495,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 2.1398884979468207,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 0.7551792481530627
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 26.26060578094841,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 3.8353202718468946,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 4.941414288003364,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 2.3936276113873327,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 2.6567643362298803
+      }
+    }
+  ],
+  "2 uploads in flight": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 2.1227562024503013,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 2.122697611848628,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 2.166259569335369,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 2.0899867264427128,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.07480878863239232
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 7.644643053884984,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 4.070097152671751,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 2.9011194426917117,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 2.1390059492188214,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 0.7566807972435865
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 26.26060578094841,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 13.205541878814802,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 4.942422656077907,
+        "written_TB": 0.367304832880422,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 2.2825890458108415,
+        "written_TB": 0.3673048328804219,
+        "read_TB": 2.659931840402662
+      }
+    }
+  ],
+  "tier2 jobs 4x slower": [
+    {
+      "scenario": "store 0.1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 8.376923450041122,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "pipelined": {
+        "makespan_h": 8.377014999923567,
+        "written_TB": 0.5369245990912,
+        "read_TB": 0.5368172249088
+      },
+      "layered": {
+        "makespan_h": 8.420222288935747,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 1.1711983550326874
+      },
+      "layered+cache": {
+        "makespan_h": 8.344147238346347,
+        "written_TB": 0.010494423796583477,
+        "read_TB": 0.07476442503546124
+      }
+    },
+    {
+      "scenario": "store 1 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 9.939854304795515,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "pipelined": {
+        "makespan_h": 8.716879515696856,
+        "written_TB": 5.36924599091199,
+        "read_TB": 5.368172249087991
+      },
+      "layered": {
+        "makespan_h": 9.155111068791456,
+        "written_TB": 0.10494423796583473,
+        "read_TB": 11.711983550326854
+      },
+      "layered+cache": {
+        "makespan_h": 8.391770188508477,
+        "written_TB": 0.10494423796583474,
+        "read_TB": 0.7507246267845195
+      }
+    },
+    {
+      "scenario": "store 3.5 GiB",
+      "W": 20,
+      "n": 10000,
+      "today": {
+        "makespan_h": 26.920136323575438,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "pipelined": {
+        "makespan_h": 9.65195575368079,
+        "written_TB": 18.792360968192003,
+        "read_TB": 18.788602871808003
+      },
+      "layered": {
+        "makespan_h": 11.190673572510287,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 40.991942426144064
+      },
+      "layered+cache": {
+        "makespan_h": 8.528786765585343,
+        "written_TB": 0.36730483288042176,
+        "read_TB": 2.6399578637956114
+      }
+    }
+  ]
+}
